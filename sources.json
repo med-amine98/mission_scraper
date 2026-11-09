@@ -1,0 +1,35 @@
+{
+  "turnover_it": {
+    "enabled": true,
+    "name": "Turnover-IT / Free-Work",
+    "url": "https://www.free-work.com/fr/tech-it/jobs?contracts=contractor",
+    "secondary_url": "https://www.free-work.com/fr/tech-it/jobs",
+    "domains": ["free-work.com", "turnover-it.com"],
+    "pattern": "/fr/tech-it/jobs/[^/?]+",
+    "card": "div[class*='job'], article, li",
+    "title": "h2, h3, h1, [class*='title']",
+    "link": "a[href*='/jobs/']"
+  },
+  "hitechpros": {
+    "enabled": true,
+    "name": "HiTechPros Freelance",
+    "url": "https://freelance.hitechpros.com/missions",
+    "secondary_url": "https://freelance.hitechpros.com/",
+    "domains": ["hitechpros.com"],
+    "pattern": "/missions/\\d+",
+    "card": "div[class*='mission'], article, tr, li",
+    "title": "h2, h3, a[href*='/missions/']",
+    "link": "a[href*='/missions/']"
+  },
+  "littlebig_connection": {
+    "enabled": true,
+    "name": "LittleBig Connection",
+    "url": "https://app.littlebigconnection.com/fr/rfp/",
+    "secondary_url": "https://www.littlebigconnection.com/fr/prestataires/freelances",
+    "domains": ["littlebigconnection.com"],
+    "pattern": "/fr/rfp/[^/?]+",
+    "card": "div[class*='card'], article, li",
+    "title": "h2, h3, h1, [class*='title']",
+    "link": "a[href*='/rfp/']"
+  }
+}

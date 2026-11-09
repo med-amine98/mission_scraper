@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+playwright
+beautifulsoup4
+pandas
+python-dotenv
+anthropic
+python-multipart

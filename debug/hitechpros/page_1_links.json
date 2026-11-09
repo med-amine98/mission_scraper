@@ -1,0 +1,142 @@
+{
+  "platform": "HiTechPros",
+  "page_url": "https://www.hitechpros.com/",
+  "card_selectors": [
+    "article",
+    "li",
+    "div"
+  ],
+  "candidate_selectors": [
+    "a[href*='mission']",
+    "a[href*='offre']",
+    "a[href*='annonce']"
+  ],
+  "anchor_count": 102,
+  "candidate_count": 524,
+  "missions_count": 29,
+  "rejected": {
+    "no_href": 288,
+    "bad_url": 10,
+    "bad_title": 29,
+    "duplicate": 168
+  },
+  "preview": [
+    {
+      "title": "la communauté de professionnels IT la plus importante et la plus active de France",
+      "url": "https://www.hitechpros.com/2026/04/20/hitechpros-medaille-platinum-ecovadis-2026"
+    },
+    {
+      "title": "Nos solutions",
+      "url": "https://www.hitechpros.com"
+    },
+    {
+      "title": "Nos tarifs",
+      "url": "https://www.hitechpros.com/tarifs"
+    },
+    {
+      "title": "Baromètre",
+      "url": "https://www.hitechpros.com/barometre"
+    },
+    {
+      "title": "A propos",
+      "url": "https://www.hitechpros.com/a-propos"
+    },
+    {
+      "title": "Nos engagements RSE",
+      "url": "https://www.hitechpros.com/nos-engagements-rse"
+    },
+    {
+      "title": "Me connecter",
+      "url": "https://esn.hitechpros.com/connexion"
+    },
+    {
+      "title": "M’inscrire",
+      "url": "https://esn.hitechpros.com/inscription"
+    },
+    {
+      "title": "Plateformes réinventées",
+      "url": "https://www.hitechpros.com/plateformes-reinventees"
+    },
+    {
+      "title": "Actualités",
+      "url": "https://www.hitechpros.com/blog"
+    },
+    {
+      "title": "Freelance",
+      "url": "https://www.hitechpros.com/nos-solutions-freelance"
+    },
+    {
+      "title": "Centre de Formation",
+      "url": "https://www.hitechpros.com/nos-solutions-centre-de-formation"
+    },
+    {
+      "title": "Éditeur de logiciels",
+      "url": "https://www.hitechpros.com/nos-solutions-editeur-de-logiciel"
+    },
+    {
+      "title": "Client Final",
+      "url": "https://www.hitechpros.com/nos-solutions-client-final"
+    },
+    {
+      "title": "Nos engagements",
+      "url": "https://www.hitechpros.com/nos-engagements"
+    },
+    {
+      "title": "Témoignages",
+      "url": "https://www.hitechpros.com/temoignages"
+    },
+    {
+      "title": "Nous rejoindre",
+      "url": "https://www.hitechpros.com/nous-rejoindre"
+    },
+    {
+      "title": "Investisseurs",
+      "url": "https://www.hitechpros.com/investisseurs"
+    },
+    {
+      "title": "Mentions Légales",
+      "url": "https://www.hitechpros.com/mentions-legales"
+    },
+    {
+      "title": "Politique de confidentialité",
+      "url": "https://www.hitechpros.com/politique-de-confidentialite-et-de-protection-des-donnes-personnelles-hitechprosproposes-par-hitechpros"
+    },
+    {
+      "title": "Je suis ESN / SSII",
+      "url": "https://www.hitechpros.com/nos-solutions-esn"
+    },
+    {
+      "title": "Je suis Hitechpros.Biz",
+      "url": "https://www.hitechpros.com/nos-solutions-hitechpros-biz"
+    },
+    {
+      "title": "Notre plateforme réinventée encore plus performante, rapide, complète.",
+      "url": "https://freelance.hitechpros.com/inscription"
+    },
+    {
+      "title": "Notre plateforme réinventée encore plus performante, rapide, complète.",
+      "url": "https://formation.hitechpros.com/inscription"
+    },
+    {
+      "title": "Coming Soon !!",
+      "url": "http://editeur.hitechpros.com"
+    },
+    {
+      "title": "Découvrez notre plateforme réinventée pour les clients finaux encore plus performante, rapide, complète.",
+      "url": "http://www.hitechpros.com/accueil/barometre"
+    },
+    {
+      "title": "Découvrez notre plateforme réinventée pour les clients finaux encore plus performante, rapide, complète.",
+      "url": "https://client.hitechpros.com"
+    },
+    {
+      "title": "A quelle plateforme souhaitez-vous vous connecter ?",
+      "url": "https://esn.hitechpros.com"
+    },
+    {
+      "title": "Témoignages de nos clients",
+      "url": "https://www.hitechpros.com/temoignages-client-final"
+    }
+  ],
+  "captured_at": "2026-11-05T13:49:04.842844+00:00"
+}

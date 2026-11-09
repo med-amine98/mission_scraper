@@ -1,0 +1,105 @@
+2026-11-05 14:44:22,926 | INFO | [DATABASE] Base SQLite initialisée.
+2026-11-05 14:44:22,929 | INFO | =================================================================
+2026-11-05 14:44:22,929 | INFO | I-LEAD MISSION SCRAPER — FILTRE SOUS-TRAITANCE
+2026-11-05 14:44:22,929 | INFO | Sites web actifs (3): turnover_it, littlebig_connection, hitechpros
+2026-11-05 14:44:22,929 | INFO | LinkedIn (endpoint Guest direct): False
+2026-11-05 14:44:22,929 | INFO | Intervalle: 180s | max pages/site: 5
+2026-11-05 14:44:22,929 | INFO | Playwright disponible: True
+2026-11-05 14:44:22,929 | INFO | Webhook Discord: ABSENT
+2026-11-05 14:44:22,929 | INFO | Limite notifications/cycle: 40
+2026-11-05 14:44:22,929 | INFO | Filtre sous-traitance: ACTIF
+2026-11-05 14:44:22,929 | INFO | Sources sous-traitance natives: hitechpros, turnover_it
+2026-11-05 14:44:22,929 | INFO | Mode: boucle
+2026-11-05 14:44:22,929 | INFO | =================================================================
+2026-11-05 14:44:43,612 | INFO | [turnover_it] page 1 | ancres=51 candidats=384 offres=6 rejets={'no_href': 308, 'bad_url': 39, 'bad_title': 4, 'duplicate': 27}
+2026-11-05 14:44:44,320 | INFO | [littlebig_connection] page 1 | ancres=133 candidats=627 offres=25 rejets={'no_href': 415, 'bad_url': 24, 'bad_title': 31, 'duplicate': 132}
+2026-11-05 14:44:53,663 | INFO | Arrêt manuel.
+2026-11-05 14:44:53,682 | ERROR | [hitechpros] Scraping échoué
+Traceback (most recent call last):
+  File "C:\Users\salah\Desktop\ilead_mission_scraper1\main.py", line 708, in scan_site
+    body, final_url = await fetch_page(
+  File "C:\Users\salah\Desktop\ilead_mission_scraper1\main.py", line 527, in fetch_page
+    return await fetch_browser(site_key, site, url, page_no)
+  File "C:\Users\salah\Desktop\ilead_mission_scraper1\main.py", line 522, in fetch_browser
+    await browser.close()
+  File "C:\Users\salah\Desktop\ilead_mission_scraper1\venv\lib\site-packages\playwright\async_api\_generated.py", line 1330, in close
+    await self._impl_obj.close(reason=reason)
+  File "C:\Users\salah\Desktop\ilead_mission_scraper1\venv\lib\site-packages\playwright\_impl\_browser.py", line 247, in close
+    raise e
+  File "C:\Users\salah\Desktop\ilead_mission_scraper1\venv\lib\site-packages\playwright\_impl\_browser.py", line 244, in close
+    await self._channel.send("close", None, {"reason": reason})
+  File "C:\Users\salah\Desktop\ilead_mission_scraper1\venv\lib\site-packages\playwright\_impl\_connection.py", line 78, in send
+    return await self._connection.wrap_api_call(
+  File "C:\Users\salah\Desktop\ilead_mission_scraper1\venv\lib\site-packages\playwright\_impl\_connection.py", line 636, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+RuntimeError: Browser.close: no running event loop
+2026-11-05 14:45:53,248 | INFO | [DATABASE] Base SQLite initialisée.
+2026-11-05 14:45:53,250 | INFO | =================================================================
+2026-11-05 14:45:53,250 | INFO | I-LEAD MISSION SCRAPER — FILTRE SOUS-TRAITANCE
+2026-11-05 14:45:53,250 | INFO | Sites web actifs (3): turnover_it, littlebig_connection, hitechpros
+2026-11-05 14:45:53,250 | INFO | LinkedIn (endpoint Guest direct): False
+2026-11-05 14:45:53,251 | INFO | Intervalle: 180s | max pages/site: 5
+2026-11-05 14:45:53,251 | INFO | Playwright disponible: True
+2026-11-05 14:45:53,252 | INFO | Webhook Discord: ABSENT
+2026-11-05 14:45:53,252 | INFO | Limite notifications/cycle: 40
+2026-11-05 14:45:53,253 | INFO | Filtre sous-traitance: ACTIF
+2026-11-05 14:45:53,253 | INFO | Sources sous-traitance natives: hitechpros, turnover_it
+2026-11-05 14:45:53,253 | INFO | Mode: boucle
+2026-11-05 14:45:53,253 | INFO | =================================================================
+2026-11-05 14:46:06,925 | INFO | [littlebig_connection] page 1 | ancres=133 candidats=627 offres=25 rejets={'no_href': 415, 'bad_url': 24, 'bad_title': 31, 'duplicate': 132}
+2026-11-05 14:46:08,175 | INFO | [turnover_it] page 1 | ancres=51 candidats=384 offres=6 rejets={'no_href': 308, 'bad_url': 39, 'bad_title': 4, 'duplicate': 27}
+2026-11-05 14:46:29,314 | INFO | [hitechpros] page 1 | ancres=102 candidats=524 offres=29 rejets={'no_href': 288, 'bad_url': 10, 'bad_title': 29, 'duplicate': 168}
+2026-11-05 14:46:29,365 | ERROR | Erreur fatale.
+Traceback (most recent call last):
+  File "C:\Users\salah\Desktop\ilead_mission_scraper1\main.py", line 1080, in main
+    asyncio.run(monitor(once=args.once))
+  File "C:\Users\salah\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\salah\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "C:\Users\salah\Desktop\ilead_mission_scraper1\main.py", line 1050, in monitor
+    elapsed = await run_cycle(web_sites, linkedin_enabled, session, semaphore)
+  File "C:\Users\salah\Desktop\ilead_mission_scraper1\main.py", line 997, in run_cycle
+    await process_items(key, result, session)
+  File "C:\Users\salah\Desktop\ilead_mission_scraper1\main.py", line 930, in process_items
+    if mission_exists(item["id"]) is None:
+  File "C:\Users\salah\Desktop\ilead_mission_scraper1\main.py", line 215, in mission_exists
+    return db.execute(
+sqlite3.OperationalError: no such column: notified
+2026-11-05 14:48:32,645 | INFO | [DATABASE] Colonne platform ajoutée.
+2026-11-05 14:48:32,645 | INFO | [DATABASE] Colonne first_seen ajoutée.
+2026-11-05 14:48:32,645 | INFO | [DATABASE] Colonne notified ajoutée.
+2026-11-05 14:48:32,645 | WARNING | [DATABASE] Impossible d'ajouter created_at: Cannot add a column with non-constant default
+2026-11-05 14:48:32,645 | INFO | [DATABASE] Base SQLite initialisée.
+2026-11-05 14:48:32,645 | INFO | =================================================================
+2026-11-05 14:48:32,645 | INFO | I-LEAD MISSION SCRAPER — FILTRE SOUS-TRAITANCE
+2026-11-05 14:48:32,645 | INFO | Sites web actifs (3): turnover_it, littlebig_connection, hitechpros
+2026-11-05 14:48:32,654 | INFO | LinkedIn (endpoint Guest direct): False
+2026-11-05 14:48:32,654 | INFO | Intervalle: 180s | max pages/site: 5
+2026-11-05 14:48:32,654 | INFO | Playwright disponible: True
+2026-11-05 14:48:32,654 | INFO | Webhook Discord: ABSENT
+2026-11-05 14:48:32,654 | INFO | Limite notifications/cycle: 40
+2026-11-05 14:48:32,655 | INFO | Filtre sous-traitance: ACTIF
+2026-11-05 14:48:32,655 | INFO | Sources sous-traitance natives: hitechpros, turnover_it
+2026-11-05 14:48:32,655 | INFO | Mode: boucle
+2026-11-05 14:48:32,655 | INFO | =================================================================
+2026-11-05 14:48:41,345 | INFO | [littlebig_connection] page 1 | ancres=133 candidats=627 offres=25 rejets={'no_href': 415, 'bad_url': 24, 'bad_title': 31, 'duplicate': 132}
+2026-11-05 14:48:41,776 | INFO | [turnover_it] page 1 | ancres=51 candidats=384 offres=6 rejets={'no_href': 308, 'bad_url': 39, 'bad_title': 4, 'duplicate': 27}
+2026-11-05 14:49:04,859 | INFO | [hitechpros] page 1 | ancres=102 candidats=524 offres=29 rejets={'no_href': 288, 'bad_url': 10, 'bad_title': 29, 'duplicate': 168}
+2026-11-05 14:49:04,880 | ERROR | Erreur fatale.
+Traceback (most recent call last):
+  File "C:\Users\salah\Desktop\ilead_mission_scraper1\main.py", line 1054, in main
+    asyncio.run(monitor(once=args.once))
+  File "C:\Users\salah\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\salah\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "C:\Users\salah\Desktop\ilead_mission_scraper1\main.py", line 1027, in monitor
+    elapsed = await run_cycle(web_sites, linkedin_enabled, session, semaphore)
+  File "C:\Users\salah\Desktop\ilead_mission_scraper1\main.py", line 975, in run_cycle
+    await process_items(key, result, session)
+  File "C:\Users\salah\Desktop\ilead_mission_scraper1\main.py", line 913, in process_items
+    save_mission(item)
+  File "C:\Users\salah\Desktop\ilead_mission_scraper1\main.py", line 248, in save_mission
+    db.execute("""
+sqlite3.IntegrityError: datatype mismatch

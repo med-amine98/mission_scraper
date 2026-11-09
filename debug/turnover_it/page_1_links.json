@@ -1,0 +1,50 @@
+{
+  "platform": "Turnover-IT",
+  "page_url": "https://www.turnover-it.com/",
+  "card_selectors": [
+    "article",
+    "li",
+    "div"
+  ],
+  "candidate_selectors": [
+    "a[href*='mission']",
+    "a[href*='offre']",
+    "a[href*='job']"
+  ],
+  "anchor_count": 51,
+  "candidate_count": 384,
+  "missions_count": 6,
+  "rejected": {
+    "no_href": 308,
+    "bad_url": 39,
+    "bad_title": 4,
+    "duplicate": 27
+  },
+  "preview": [
+    {
+      "title": "CVTHÈQUE | DIFFUSION D’OFFRES | PLACE DE MARCHÉ Recrutez ici vos futurs talents IT et digitaux !",
+      "url": "https://www.turnover-it.com"
+    },
+    {
+      "title": "Recrutement IT, tout-en-un",
+      "url": "https://www.turnover-it.com/solutions/cv-database"
+    },
+    {
+      "title": "Diffuser vos offres",
+      "url": "https://www.turnover-it.com/solutions/job-publication"
+    },
+    {
+      "title": "Entrez sur la marketplace IT",
+      "url": "https://www.turnover-it.com/solutions/marketplace"
+    },
+    {
+      "title": "Turnover-IT",
+      "url": "https://app.turnover-it.com"
+    },
+    {
+      "title": "Statistiques Turnover-IT",
+      "url": "https://www.turnover-it.com/resources/statistics"
+    }
+  ],
+  "captured_at": "2026-11-05T13:48:41.773092+00:00"
+}

@@ -1,0 +1,126 @@
+{
+  "platform": "LittleBig Connection",
+  "page_url": "https://www.littlebigconnection.com/fr/",
+  "card_selectors": [
+    "article",
+    "li",
+    "div"
+  ],
+  "candidate_selectors": [
+    "a[href*='mission']",
+    "a[href*='project']",
+    "a[href*='opportun']"
+  ],
+  "anchor_count": 133,
+  "candidate_count": 627,
+  "missions_count": 25,
+  "rejected": {
+    "no_href": 415,
+    "bad_url": 24,
+    "bad_title": 31,
+    "duplicate": 132
+  },
+  "preview": [
+    {
+      "title": "Consentement",
+      "url": "https://www.littlebigconnection.com/fr"
+    },
+    {
+      "title": "Entreprises",
+      "url": "https://www.littlebigconnection.com/fr/entreprises"
+    },
+    {
+      "title": "Prestataires",
+      "url": "https://www.littlebigconnection.com/fr/prestataires"
+    },
+    {
+      "title": "Notre plateforme",
+      "url": "https://www.littlebigconnection.com/fr/plateforme"
+    },
+    {
+      "title": "Inscription",
+      "url": "https://www.littlebigconnection.com/v2/subscription?lang=fr"
+    },
+    {
+      "title": "Sourcing",
+      "url": "https://www.littlebigconnection.com/fr/entreprises/sourcing-marketplace"
+    },
+    {
+      "title": "Freelances",
+      "url": "https://www.littlebigconnection.com/fr/prestataires/freelances"
+    },
+    {
+      "title": "Sociétés de conseil",
+      "url": "https://www.littlebigconnection.com/fr/prestataires/societes-de-conseil"
+    },
+    {
+      "title": "Cybersécurité",
+      "url": "https://www.littlebigconnection.com/fr/rfp/cybersecurite"
+    },
+    {
+      "title": "Infrastructure & Réseaux",
+      "url": "https://www.littlebigconnection.com/fr/rfp/infra-reseaux"
+    },
+    {
+      "title": "UX & UI Design",
+      "url": "https://www.littlebigconnection.com/fr/rfp/ux-ui-design"
+    },
+    {
+      "title": "Marketing & SEO",
+      "url": "https://www.littlebigconnection.com/fr/rfp/marketing-seo"
+    },
+    {
+      "title": "Data Science & AI",
+      "url": "https://www.littlebigconnection.com/fr/rfp/data-science-ai"
+    },
+    {
+      "title": "Développement Durable & RSE",
+      "url": "https://www.littlebigconnection.com/fr/rfp/dd-rse"
+    },
+    {
+      "title": "Transformation Digitale",
+      "url": "https://www.littlebigconnection.com/fr/rfp/consulting-management"
+    },
+    {
+      "title": "Cloud Engineering",
+      "url": "https://www.littlebigconnection.com/fr/rfp/cloud-engineering"
+    },
+    {
+      "title": "Software Engineering",
+      "url": "https://www.littlebigconnection.com/fr/rfp/software-engineering"
+    },
+    {
+      "title": "Publications",
+      "url": "https://www.littlebigconnection.com/fr/publications"
+    },
+    {
+      "title": "Nos clients",
+      "url": "https://www.littlebigconnection.com/fr/nos-clients"
+    },
+    {
+      "title": "Qui sommes-nous ?",
+      "url": "https://www.littlebigconnection.com/fr/a-propos"
+    },
+    {
+      "title": "Développement durable",
+      "url": "https://www.littlebigconnection.com/fr/developpement-durable"
+    },
+    {
+      "title": "Nous rejoindre",
+      "url": "https://www.littlebigconnection.com/fr/carrieres"
+    },
+    {
+      "title": "Trouver des missions",
+      "url": "https://www.littlebigconnection.com/fr/rfp"
+    },
+    {
+      "title": "Vous avez déjà trouvé le bon expert ? Contractualisez ensemble",
+      "url": "https://www.littlebigconnection.com/fr/entreprises/portage-commercial"
+    },
+    {
+      "title": "CGU et Mentions Légales",
+      "url": "https://www.littlebigconnection.com/fr/cgu-et-mentions-legales"
+    }
+  ],
+  "captured_at": "2026-11-05T13:48:41.341702+00:00"
+}

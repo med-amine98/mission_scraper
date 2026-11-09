@@ -1,21 +1,16 @@
-# I-Lead Mission Scraper & Matching CV Intelligence
+#Mission Scraper & Matching CV Intelligence
 
 Plateforme complète de **veille commerciale IT** et de **matching intelligent de CVs**. Elle permet de collecter automatiquement les missions IT depuis les trois plateformes majeures, de les visualiser sur une interface web moderne, et de faire matcher instantanément votre vivier de candidats (CVs PDF, Word, texte) avec les offres trouvées pour identifier le profil idéal.
 
 ---
-
 ## 🌟 Fonctionnalités Principales
 
-### 1. Scraping multi-sources des 3 plateformes cibles
-- **Turnover-IT (Free-Work)** : missions freelance & régie tech, détection des compétences et des localisations.
-- **HiTechPros** : opportunités ESN et indépendants, TJM indicatif, technologies requises.
-- **LittleBig Connection** : appels d'offres RFP grands comptes et forfaits.
-- **Scraping autonome ou ciblé** : scannez les 3 plateformes simultanément ou individuellement via le dashboard.
-
+### 1. Scraping multi-sources 
+.
 ### 2. Dashboard & Visualisation des Offres
 - Vue d'ensemble avec statistiques par source et volume d'offres en base.
 - Filtres en temps réel : recherche textuelle multi-champs (intitulé, techno, lieu) et filtre par plateforme.
-- Badges distincts par source (Turnover-IT en bleu, HiTechPros en émeraude, LittleBig Connection en ambre).
+- Badges distincts par source.
 - Fiches détaillées avec description complète et lien direct vers l'offre originale.
 
 ### 3. Gestion des CVs & Candidats (Nouvelle Page)
@@ -26,7 +21,7 @@ Plateforme complète de **veille commerciale IT** et de **matching intelligent d
 
 ### 4. Moteur de Matching Intelligent (Trouver le candidat idéal)
 - **Mode A : Trouver le CV idéal pour une offre sélectionnée** :
-  - Choisissez n'importe quelle offre (ou cliquez sur "🎯 Trouver le CV idéal" directement dans le tableau des missions).
+  - Choisissez n'importe quelle offre (ou cliquez sur " Trouver le CV idéal" directement dans le tableau des missions).
   - L'algorithme classe tous vos CVs du plus adapté au moins adapté avec une jauge de compatibilité (0 à 100%).
   - Met en évidence les **compétences validées** (✓ en vert) et les **compétences manquantes** (✗ en rouge/orange).
   - Fournit une synthèse commerciale et une recommandation immédiate.
